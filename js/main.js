@@ -7,8 +7,8 @@ $(function () {
     let botones = document.getElementsByClassName('btn-header');
     let cerrado = true;
     let skills = $('#skills').offset().top;
-    let servicios = $('#servicios').offset().top;
-    let experiencia = $('#experiencia').offset().top;
+    let servicios = $('#services').offset().top;
+    let experiencia = $('#experience').offset().top;
     let contactos = $('footer').offset().top;
 
 
@@ -27,7 +27,7 @@ $(function () {
         }
     }
     function loaded() {
-        this.console.log('listo');
+        this.console.log('lissssto');
         // $('#onload').fadeOut();
         // $('body').removeClass('hidden');
         menus();
