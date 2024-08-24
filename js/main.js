@@ -9,6 +9,7 @@ $(function () {
     let skills = $('#skills').offset().top;
     let servicios = $('#services').offset().top;
     let experiencia = $('#experience').offset().top;
+    let proyectos = $('#projects').offset().top;
     let contactos = $('footer').offset().top;
 
 
@@ -94,6 +95,12 @@ $(function () {
         e.preventDefault();
         $('html, body').animate({
             scrollTop: servicios
+        }, 600);
+    });
+     $('#enlace-proyectos').on('click', function (e) {
+        e.preventDefault();
+        $('html, body').animate({
+            scrollTop: proyectos
         }, 600);
     });
     $('#enlace-contacto').on('click', function (e) {
