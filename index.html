@@ -26,22 +26,20 @@
 </head>
 
 <body class='hidden'>
-    <!-- <div class="lds-ripple">
-        <div></div>
-        <div></div>
-    </div> -->
     <header>
         <nav id="nav">
             <div class="contenedor-nav">
                 <div class="logo">
-                    <img src="res/logos/milogo.png" alt="mi logo">
+                    <a href="#">
+                      <img src="res/logos/Black White Minimalist Professional Initial Logo (1).png"  alt="mi logo">
+                    </a>                  
                 </div>
                 <div class="enlaces" id="enlaces">
                     <a href="#" id="enlace-inicio" class="btn-header">About me</a>
+                    <a href="#" id="enlace-proyectos" class="btn-header">Projects</a>
                     <a href="#" id="enlace-skills" class="btn-header">Skills</a>
                     <a href="#" id="enlace-experiencia" class="btn-header">Experience</a>
-                    <a href="#" id="enlace-servicios" class="btn-header">Services</a>
-                    <a href="#" id="enlace-proyectos" class="btn-header">Projects</a>
+                    <a href="#" id="enlace-servicios" class="btn-header">Services</a>                   
                     <a href="#" id="enlace-contacto" class="btn-header">Contacts</a>
                 </div>
                 <div class="icono" id="open">
@@ -51,21 +49,64 @@
         </nav>
         <div class="textos">
             <h1>Olga Marin</h1><br>
-            <h2>Electronic Engineer - Teacher - Musician</h2>
+            <h2>Electronics Engineer | Software Developer</h2>
         </div>
     </header>
     <main>
+          <section class="experience" id='projects'>
+            <div class="contenedor ">
+                <h1 class='sobremi fondo-oscuro'>My Projects</h1>
+                <p class="sub-center after" style="color:white">This is what I have done so far</p>
+                <div class="servicios">
+                    <div class="card m-0 p-0" style="width: 20rem; display:flex; align-items:stretch;">
+                        <img src="res/todoapp-sqr.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Simple To Do List in React</h5>
+                            <p class="card-text">The app allows users to add,
+                                mark, and delete tasks, providing an intuitive and efficient task management experience.
+                                All functionalities were
+                                implemented in React.</p>
+                            <a href="https://todo-app-om33.netlify.app/" target="_blank" class="btn btn-success">Go to
+                                app</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="/res/personalconverter-sqr.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Personal Currency Converter</h5>
+                            <p class="card-text">this is a simple application made with 
+                                HTML, CSS and JS, uisng some JQuery commands and fetch method to call APIs from CoinDesk and Dolarapi. 
+                                You can consult the price of Bitcoin, Argentinian peso and the Venezuelan currency, Bolivar. 
+                                You also can convert any currency among USD, ARS, VES and BTC. 
+            
+
+                            </p>
+                            <a href="https://om33.github.io/Conversor-personalizado/" target="_blank" class="btn btn-success">Go to
+                                app</a>
+                        </div>
+                    </div>
+
+                    <div class="card" style="width: 18rem;">
+                        <img src="/res/imagegallery-sqr.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">React and Tailwind Image Gallery</h5>
+                            <p class="card-text">A simple image gallery developed with react and tailwindCSS using 
+                                a Pixabay API 
+                            </p>
+                            <a href="https://react-tailwind-pixabay-image-gallery.vercel.app/" class="btn btn-success">Go to app</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section class='about' id='about'>
             <div class="contenedor">
                 <h2 class="sobremi">About Me</h2>
                 <h3 class="sub-center"> Engineer - Teacher - Musician </h3>
                 <p class="parrafo">Hello, Welcome to my dynamic CV and thank you for your interest</p>
-                <p class="parrafo">After making several templates, I took the initiative to create my
-                    Curriculum Vitae as a web page.
-                    In this way I create a document that represents me even more than a .pdf or .doc, and even better,
-                    it
-                    is as
-                    dynamic and creative as me.
+                <p class="parrafo">This is where I show what I have done so far with my life and how 
+                    can I help you to achieve your goals. 
                     <br>
                     This is becoming also my Portfolio, where you can take a look to some of my personal projects.
                     <br>
@@ -73,9 +114,9 @@
                     You can wacht the repository <a href="https://github.com/OM33/dynamicCV">here</a>
                 </p>
 
-                <p class="after">If you prefer to look at my CV in a more traditional way, just click the button<br>
-                    <a href="https://drive.google.com/file/d/1khIFBsnvgoURDHeHo0wjzIRSslqrd9fU/view?usp=sharing"
-                        class='button'>Download Olga's CV</a>
+                <p class="after">If you prefer to take a look at my CV, just click the button<br>
+                    <a href="https://drive.google.com/file/d/12cHOerr70LN0qubzQAsZW4pAoRVVAP7v/view?usp=sharing"
+                        class='button' target="_blank" >Download Olga's CV</a>
                 </p>
 
 
@@ -527,54 +568,7 @@
             </div>
         </section>
 
-        <section class="experience" id='projects'>
-            <div class="contenedor ">
-                <h1 class='sobremi fondo-oscuro'>My Projects</h1>
-                <p class="sub-center after" style="color:white">This is what I have done so far</p>
-                <div class="servicios">
-                    <div class="card" style="width: 18rem;">
-                        <img src="res/todoapp.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Simple To Do List in React</h5>
-                            <p class="card-text">The app allows users to add,
-                                mark, and delete tasks, providing an intuitive and efficient task management experience.
-                                All functionalities were
-                                implemented in React, showcasing my skills in front-end development and user interface
-                                design.</p>
-                            <a href="https://todo-app-om33.netlify.app/" target="_blank" class="btn btn-primary">Go to
-                                app</a>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="/res/personalconverter.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Personal Currency Converter</h5>
-                            <p class="card-text">I made my personilized Currency Conversor, this is a simple application made with 
-                                HTML, CSS and JS, uisng some JQuery commands and fetch method to call APIs from CoinDesk and Dolarapi. 
-                                You can consult the price of Bitcoin, Argentinian peso and the Venezuelan currency, Bolivar. 
-                                You also can convert any currency among USD, ARS, VES and BTC. 
-            
-
-                            </p>
-                            <a href="https://om33.github.io/Conversor-personalizado/" target="_blank" class="btn btn-primary">Go to
-                                app</a>
-                        </div>
-                    </div>
-
-                    <div class="card" style="width: 18rem;">
-                        <img src="..." class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's
-                                content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+      
     </main>
 
     <footer id='contact' id='contactos'>
