@@ -563,5 +563,15 @@ footer p {
   .iconos {
     margin: auto;
     display: block;
+    display: flex;
+      justify-content: center;
+      margin-left: 2rem;
+  }
+  .icono{
+    margin-right: 20rem; 
+    
+  }
+  .icono .linkedin{
+    padding-top: 20rem;
   }
 }
